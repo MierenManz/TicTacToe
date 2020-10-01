@@ -184,6 +184,8 @@ if (clicks = 10) {
     {
         run % restart
         exitapp
+    } else {
+        exitapp
     }
 }
 return
