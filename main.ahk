@@ -5,12 +5,10 @@ listlines, off
 SendMode Input
 SetWorkingDir, %A_ScriptDir%
 restart := A_ScriptDir . "\" . A_ScriptName
-if (!A_IsCompiled) {
-    assets := A_ScriptDir "\assets\"
-    gridImage := LoadPicture(assets "background.bmp")
-    cross := LoadPicture(assets "cross.bmp")
-    circle := LoadPicture(assets "circle.bmp")
-}
+assets := A_ScriptDir "\assets\"
+gridImage := LoadPicture(assets "background.bmp")
+cross := LoadPicture(assets "cross.bmp")
+circle := LoadPicture(assets "circle.bmp")
 clicks := 1, x1y1 := 0, x2y1 := 0, x3y1 := 0, x1y2 := 0, x2y2 := 0, x3y2 := 0, x1y3 := 0, x2y3 := 0, x3y3 := 0
 gui, 1:New
 Gui, 1:Color, white
