@@ -45,7 +45,7 @@ if (x1y1 = 0) {
         x1y1 := "circle"
     }
     clicks := clicks + 1
-goto, checkwin
+    goto, checkwin
 }
 return
 X2y1:
@@ -59,7 +59,7 @@ if (x2y1 = 0) {
         x2y1 := "circle"
     }
     clicks := clicks + 1
-goto, checkwin
+    goto, checkwin
 }
 return
 X3y1:
@@ -73,7 +73,7 @@ if (x3y1 = 0) {
         x3y1 := "circle"
     }
     clicks := clicks + 1
-goto, checkwin
+    goto, checkwin
 }
 return
 X1y2:
@@ -87,7 +87,7 @@ if (x1y2 = 0) {
         x1y2 := "circle"
     }
     clicks := clicks + 1
-goto, checkwin
+    goto, checkwin
 }
 return
 X2y2:
@@ -101,7 +101,7 @@ if (x2y2 = 0) {
         x2y2 := "circle"
     }
     clicks := clicks + 1
-goto, checkwin
+    goto, checkwin
 }
 return
 X3y2:
@@ -115,7 +115,7 @@ if (x3y2 = 0) {
         x3y2 := "circle"
     }
     clicks := clicks + 1
-goto, checkwin
+    goto, checkwin
 }
 return
 X1y3:
@@ -129,7 +129,7 @@ if (x1y3 = 0) {
         x1y3 := "circle"
     }
     clicks := clicks + 1
-goto, checkwin
+    goto, checkwin
 }
 return
 X2y3:
@@ -143,7 +143,7 @@ if (x2y3 = 0) {
         x2y3 := "circle"
     }
     clicks := clicks + 1
-goto, checkwin
+    goto, checkwin
 }
 return
 X3y3:
@@ -157,7 +157,7 @@ if (x3y3 = 0) {
         x3y3 := "circle"
     }
     clicks := clicks + 1
-goto, checkwin
+    goto, checkwin
 }
 return
 
