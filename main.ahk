@@ -6,11 +6,12 @@ SendMode Input
 SetWorkingDir, %A_ScriptDir%
 restart := A_ScriptDir . "\" . A_ScriptName
 assets := A_ScriptDir "\assets\"
-gridImage := LoadPicture(assets "background.png")
-cross := LoadPicture(assets "cross.png")
-circle := LoadPicture(assets "circle.png")
+gridImage := LoadPicture(assets "background.bmp")
+cross := LoadPicture(assets "cross.bmp")
+circle := LoadPicture(assets "circle.bmp")
 clicks := 1, x1y1 := 0, x2y1 := 0, x3y1 := 0, x1y2 := 0, x2y2 := 0, x3y2 := 0, x1y3 := 0, x2y3 := 0, x3y3 := 0
 gui, 1:New
+Gui, 1:Color, white
 gui, 1:-Resize -DPIScale
 gui, 1:+E0x02000000 +LastFound +ToolWindow
 gui, 1:+E0x00080000 +E0x80000
